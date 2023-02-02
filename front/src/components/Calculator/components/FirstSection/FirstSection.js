@@ -27,7 +27,7 @@ const FirstSection = ({
         } else setConclusion(5)
     }
 
-    return <div className='firstSection'>
+    return <div className='first-section'>
         <div className='section-title'>
             Введите сывороточную концентрации 25(OH) витамина D
         </div>
@@ -52,7 +52,7 @@ const FirstSection = ({
 
         <button 
         onClick={onConclusionClick}
-        className='first-section-button'>
+        className='calculator-button'>
             Получить заключение
         </button>
 

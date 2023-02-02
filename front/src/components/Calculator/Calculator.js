@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './Calculator.css';
 import FirstSection from './components/FirstSection/FirstSection';
+import SecondSection from './components/SecondSection/SecondSection';
 
 const Calculator = () => {
 
@@ -32,6 +33,8 @@ const Calculator = () => {
         <FirstSection 
         setConclusion={setConclusion}
         conclusionText={conclusionText}/>
+        
+        <SecondSection />
     </div>
 };
 

@@ -1,0 +1,15 @@
+.second-section-input-container {
+    position: relative;
+    display: inline-block;
+}
+
+.second-section.custom-input {
+    width: 60px;
+    padding-right: 35px;
+}
+
+.second-section-input-unit {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
