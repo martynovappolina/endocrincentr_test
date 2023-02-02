@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  background-color: #f7f7f7;
+  font-family: "Open Sans", Helvetica, Verdana, sans-serif;
+  color: #243178;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.custom-input, .custom-select {
+  padding: 10px 15px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.custom-input {
+  max-width: 46px; 
+}
+
+.custom-input:focus, .custom-input:hover,
+.custom-select:focus, .custom-select:hover {
+  outline: none !important;
+  border-color: #44a1df;
+}
+

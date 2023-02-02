@@ -1,0 +1,29 @@
+.header {
+    background: #222d73;
+    padding: 20px 0 20px;
+    z-index: 600;
+    top: 0;
+    width: 100%;
+}
+
+.header-content {
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-tel {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.header-logo-icon {
+    width: 90px;
+    height: 40px;
+    background: url('../../../public/imgs/logo.svg');
+    background-size: 90px 40px;
+}
