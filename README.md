@@ -1,8 +1,8 @@
 # endocrincentr_test
 
-Для того, чтобы запустить приложение:
-cd front
-npm start
+Для того, чтобы запустить приложение:<br/>
+cd front<br/>
+npm start<br/>
 
 адаптив: <br/>
 ![image](https://user-images.githubusercontent.com/79730482/216457818-7e03f04b-76da-4ddc-8050-8f45e90bf750.png)
