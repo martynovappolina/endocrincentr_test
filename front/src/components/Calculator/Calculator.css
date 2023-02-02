@@ -9,3 +9,15 @@
     font-weight: 700;
     margin: 15px 0;
 }
+
+@media (max-width: 1000px) {
+    .calculator-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .calculator-title {
+        font-size: 18px;
+    }
+}

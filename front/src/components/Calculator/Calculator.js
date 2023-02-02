@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import './Calculator.css';
 import FirstSection from './components/FirstSection/FirstSection';
 import SecondSection from './components/SecondSection/SecondSection';
+import ThirdSection from './components/ThirdSection/ThirdSection';
 
 const Calculator = () => {
 
@@ -14,14 +15,12 @@ const Calculator = () => {
         'Дефицит витамина D. Рекомендуется насыщающая доза колекальциферола 400 000 МЕ в течение 8 недель',
         'Недостаточность витамина D. Рекомендуется насыщающая доза колекальциферола 200 000 МЕ в течение 4 недель',
         'Нормальный уровень витамина D. Рекомендуется поддерживающая доза колекальциферола 1500- 2000 МЕ в сутки',
-        'Вероятно проявление токсического эффекта витамина D. Необходимо исследование уровня кальция в крови для исключения гиперкальциемии'
+        'Вероятно проявление токсического эффекта витамина D. Необходимо исследование уровня кальция в крови для исключения гиперкальциемии',
     ]
 
     useEffect(() => {
         setConclusionText(conclusions[conclusion])
     }, [conclusion])
-
-    console.log(conclusion)
     
     return <div className='container'>
         <div className='calculator-title'>
@@ -35,6 +34,8 @@ const Calculator = () => {
         conclusionText={conclusionText}/>
         
         <SecondSection />
+        <ThirdSection conclusion={conclusion}/>
+
     </div>
 };
 

@@ -1,0 +1,13 @@
+.third-section {
+    margin: 40px 0;
+}
+
+.third-section-text {
+    margin-left: -22px;
+}
+
+@media (max-width: 595px){
+    .third-section-button.calculator-button {
+        margin-top: 10px;
+    }
+} 

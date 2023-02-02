@@ -5,3 +5,9 @@
 .first-section-conclusion {
     margin: 15px 0;
 }
+
+@media (max-width: 441px){
+    .first-section-button.calculator-button {
+        margin-top: 10px;
+    }
+} 

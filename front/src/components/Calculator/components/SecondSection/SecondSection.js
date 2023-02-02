@@ -17,7 +17,7 @@ const SecondSection = () => {
                 className='second-section custom-input' 
                 type='number'
                 value={mkg}
-                onChange={(e) => setMkg(e.target.value)}
+                onChange={(e) => {setMkg(e.target.value)}}
                 />
                 <div className='second-section-input-unit'>
                     мкг
@@ -41,7 +41,7 @@ const SecondSection = () => {
 
         <button 
         onClick={() => {
-            if(mkg!=='') setME(mkg*40);
+            if(mkg!=='' && mkg>0) setME(mkg*40);
         }}
         className='calculator-button'>
             Перевести мкг в МЕ

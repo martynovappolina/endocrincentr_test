@@ -1,7 +1,17 @@
+@font-face {
+  font-family: "PTS55F";
+  src: url(../public/fonts/PTS55F.ttf);
+}
+
+@font-face {
+font-family: "PTF56F";
+src: url(../public/fonts/PTF56F.ttf);
+}
+
 body {
   margin: 0;
   background-color: #f7f7f7;
-  font-family: "Open Sans", Helvetica, Verdana, sans-serif;
+  font-family: "PTS55F";
   color: #243178;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -14,8 +24,7 @@ input::-webkit-inner-spin-button {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: "PTS55F";
 }
 
 .container {
@@ -55,4 +64,10 @@ code {
 
 .calculator-button:hover {
   background: #44a1df;
+}
+
+@media (max-width:1000px) {
+  .container {
+    max-width: 90%;
+  }
 }

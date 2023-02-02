@@ -11,7 +11,7 @@ const FirstSection = ({
     
     const onConclusionClick = () => {
         if(concentrationUnit==0 || typeof concentration==='undefined' 
-        || typeof concentration=='' || concentration==0) {
+        || typeof concentration=='' || concentration<=0) {
             setConclusion(0);
         } else if(concentration<10 && concentrationUnit==1 || concentration<25 && concentrationUnit==2) {
             setConclusion(1);
@@ -41,8 +41,6 @@ const FirstSection = ({
 
         <select 
         className='custom-select'
-        id='select-concentration'
-        required={false}
         value={concentrationUnit}
         onChange={(e) => setConcentrationUnit(e.target.value)}
         >
@@ -52,7 +50,7 @@ const FirstSection = ({
 
         <button 
         onClick={onConclusionClick}
-        className='calculator-button'>
+        className='first-section-button calculator-button'>
             Получить заключение
         </button>
 
