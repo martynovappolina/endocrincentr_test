@@ -4,6 +4,7 @@
     z-index: 600;
     top: 0;
     width: 100%;
+    position: fixed;
 }
 
 .header-content {

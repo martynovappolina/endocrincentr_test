@@ -22,7 +22,7 @@ const Calculator = () => {
         setConclusionText(conclusions[conclusion])
     }, [conclusion])
     
-    return <div className='container'>
+    return <div className='calculator container'>
         <div className='calculator-title'>
             Калькулятор для расчета режимов дозирования различных 
             форм препаратов нативного витамина D (колекальциферол) 
